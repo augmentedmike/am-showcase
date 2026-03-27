@@ -1,7 +1,9 @@
+import HowItWorks from "@/components/how-it-works";
+
 export default function Home() {
   return (
-    <main className="min-h-screen p-8">
-      <h1 className="text-2xl font-bold">am-showcase</h1>
+    <main className="min-h-screen" style={{ background: "#0a0a0a", color: "#ededed" }}>
+      <HowItWorks />
     </main>
   );
 }
